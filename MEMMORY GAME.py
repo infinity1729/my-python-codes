@@ -66,7 +66,7 @@ for o in k:
         z[k2[no1]-9]=temp
         no1=no1+1
 
-i1=0
+i1=1
 time.sleep(3)
 t1=time.time()
 while i1<=6:
