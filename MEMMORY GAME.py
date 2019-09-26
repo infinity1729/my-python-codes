@@ -219,4 +219,5 @@ while i1<=6:
 
 t2=time.time()
 t=t2-t1
-print("Yay! you completed the game!. Time taken by you is:", t, "seconds")
+print("Yay! you completed the game!. Time taken by you is:", t, "seconds."," Your score is",150-t)
+print("Proudly made by Anant Bansal")
