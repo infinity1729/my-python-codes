@@ -73,12 +73,12 @@ while i1<=6:
     m=int(input("enter number to flip"))
     
     
-    if m<=4:
+    if m<=4 and m>0:
         a1=a[m-1]
         a[m-1]=x[m-1]
         print(a,b,c,sep="\n")
         n=int(input("enter number to flip"))
-        if n<=4:
+        if n<=4 and n>0:
             a2=a[n-1]
             a[n-1]=x[n-1]
             print(a,b,c,sep="\n")
@@ -126,7 +126,7 @@ while i1<=6:
         b[m-5]=y[m-5]
         print(a,b,c,sep="\n")
         n=int(input("enter number to flip"))
-        if n<=4:
+        if n<=4 and n>0:
             a2=a[n-1]
             a[n-1]=x[n-1]
             print(a,b,c,sep="\n")
@@ -173,7 +173,7 @@ while i1<=6:
         c[m-9]=z[m-9]
         print(a,b,c,sep="\n")
         n=int(input("enter number to flip"))
-        if n<=4:
+        if n<=4 and n>0:
             a2=a[n-1]
             a[n-1]=x[n-1]
             print(a,b,c,sep="\n")
@@ -215,6 +215,7 @@ while i1<=6:
                 for i in range (50):
                     print()
                 print(a,b,c,sep="\n")
+      
 
 
 t2=time.time()
