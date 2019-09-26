@@ -67,7 +67,7 @@ for o in k:
         no1=no1+1
 
 i1=1
-time.sleep(3)
+time.sleep(4)
 t1=time.time()
 while i1<=6:
     m=int(input("enter number to flip"))
@@ -90,7 +90,7 @@ while i1<=6:
                 time.sleep(2)
                 a[n-1]=a2
                 a[m-1]=a1
-                for i in range (50):
+                for i in range (90):
                     print()
                 print(a,b,c,sep="\n")
         elif n>4 and n<=8:
@@ -101,10 +101,10 @@ while i1<=6:
                 i1=i1+1
                 pass
             else:
-                time.sleep(2)
+                time.sleep(1)
                 b[n-5]=a2
                 a[m-1]=a1
-                for i in range (50):
+                for i in range (90):
                     print()
                 print(a,b,c,sep="\n")
         elif n>8 and n<=12:
@@ -115,10 +115,10 @@ while i1<=6:
                 i1=i1+1
                 pass
             else:
-                time.sleep(2)
+                time.sleep(1)
                 c[n-9]=a2
                 a[m-1]=a1
-                for i in range (50):
+                for i in range (90):
                     print()
                 print(a,b,c,sep="\n")
     elif m>4 and m<=8:
@@ -134,10 +134,10 @@ while i1<=6:
                 i1=i1+1
                 pass
             else:
-                time.sleep(2)
+                time.sleep(1)
                 a[n-1]=a2
                 b[m-5]=a1
-                for i in range (50):
+                for i in range (90):
                     print()
                 print(a,b,c,sep="\n")
         elif n>4 and n<=8:
@@ -148,10 +148,10 @@ while i1<=6:
                 i1=i1+1
                 pass
             else:
-                time.sleep(2)
+                time.sleep(1)
                 b[n-5]=a2
                 b[m-5]=a1
-                for i in range (50):
+                for i in range (90):
                     print()
                 print(a,b,c,sep="\n")
         elif n>8 and n<=12:
@@ -162,10 +162,10 @@ while i1<=6:
                 i1=i1+1
                 pass
             else:
-                time.sleep(2)
+                time.sleep(1)
                 c[n-9]=a2
                 b[m-5]=a1
-                for i in range (50):
+                for i in range (90):
                     print()
                 print(a,b,c,sep="\n")
     elif m>8 and m<=12:
@@ -181,10 +181,10 @@ while i1<=6:
                 i1=i1+1
                 pass
             else:
-                time.sleep(2)
+                time.sleep(1)
                 a[n-1]=a2
                 c[m-9]=a1
-                for i in range (50):
+                for i in range (90):
                     print()
                 print(a,b,c,sep="\n")
         elif n>4 and n<=8:
@@ -195,10 +195,10 @@ while i1<=6:
                 i1=i1+1
                 pass
             else:
-                time.sleep(2)
+                time.sleep(1)
                 b[n-5]=a2
                 c[m-9]=a1
-                for i in range (50):
+                for i in range (90):
                     print()
                 print(a,b,c,sep="\n")
         elif n>8 and n<=12:
