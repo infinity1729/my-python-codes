@@ -4,7 +4,7 @@ import time
 
 
 print("disclaimer: this is made by Anant Bansal(Infinity1729). You are not allowed to edit the copyright data without permission.")
-print("guide: if wrong ans wait it will automatically flip back. dont scroll up to see previous number as it will destroy the fun.As soon as it asks for numbers to flip, timer starts. Happy Pro-g(r)am(m)ing!")
+print("guide:In this game, you have to chose the numbers which will flip into alphabets. Find two same alphabets and put them together. if wrong ans wait it will automatically flip back. dont scroll up to see previous number as it will destroy the fun.As soon as it asks for numbers to flip, timer starts. Happy Pro-g(r)am(m)ing!")
 a= ['01','02','03','04']
 b= ['05','06','07','08']
 c= ['09','10','11','12']
@@ -71,7 +71,7 @@ time.sleep(4)
 t1=time.time()
 while i1<=6:
     m=int(input("enter number to flip"))
-    
+        
     
     if m<=4 and m>0:
         a1=a[m-1]
