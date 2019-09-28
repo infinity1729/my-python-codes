@@ -71,14 +71,16 @@ time.sleep(4)
 t1=time.time()
 while i1<=6:
     m=int(input("enter number to flip"))
-        
+    
     
     if m<=4 and m>0:
         a1=a[m-1]
         a[m-1]=x[m-1]
         print(a,b,c,sep="\n")
         n=int(input("enter number to flip"))
-        if n<=4 and n>0:
+        if m==n:
+            print(" Don't be silly, select two different numbers!")
+        elif n<=4 and n>0:
             a2=a[n-1]
             a[n-1]=x[n-1]
             print(a,b,c,sep="\n")
@@ -126,7 +128,10 @@ while i1<=6:
         b[m-5]=y[m-5]
         print(a,b,c,sep="\n")
         n=int(input("enter number to flip"))
-        if n<=4 and n>0:
+        if m==n:
+            print(" Don't be silly, select two different numbers!")
+        
+        elif n<=4 and n>0:
             a2=a[n-1]
             a[n-1]=x[n-1]
             print(a,b,c,sep="\n")
@@ -173,7 +178,10 @@ while i1<=6:
         c[m-9]=z[m-9]
         print(a,b,c,sep="\n")
         n=int(input("enter number to flip"))
-        if n<=4 and n>0:
+        if m==n:
+            print(" Don't be silly, select two different numbers!")
+        
+        elif n<=4 and n>0:
             a2=a[n-1]
             a[n-1]=x[n-1]
             print(a,b,c,sep="\n")
