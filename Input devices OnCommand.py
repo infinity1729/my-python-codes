@@ -137,6 +137,7 @@ def fn():
 def commands():
     print('This is the list of available commands')
     a1=['move to (x,y); maximum value:'+str(pyautogui.size())+'you present mouse location is:'+str(pyautogui.position()),'move up(specify the amount like move up by 100)','move down(eg move down by 100)','move right(move right by 100)','move left(eg move left by 100)']
+    a8=['drag to (x,y); maximum value:'+str(pyautogui.size())+'you present mouse location is:'+str(pyautogui.position()),'drag up(specify the amount eg drag up by 100)','drag down(eg drag down by 100)','drag right(eg drag right by 100)','drag left(drag left by 100)']
     for i in a1:
         print(i)
     for i in a2:
