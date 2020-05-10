@@ -89,6 +89,7 @@ def go(o):
                     while fr1[frs]!='<':
                         print(fr1[frs],end="")
                         frs+=1
+                    print()
             
                 schedule.every(t).minutes.do(job)
                 while True:
