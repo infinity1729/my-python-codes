@@ -1,7 +1,7 @@
 row=int(input("Enter number of rows to print"))
 a=[1]
 p=[]
-for i in range (row+1):
+for i in range (row):
     
     a.extend(p)
     print(" ".join([str(i) for i in a]))
