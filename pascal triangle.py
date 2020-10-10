@@ -1,11 +1,10 @@
-import array
 row=int(input("Enter number of rows to print"))
 a=[1]
 p=[]
-for i in range (row+1):
+for i in range (row):
     
     a.extend(p)
-    print(a)
+    print(" ".join([str(i) for i in a]))
     del (p)
     p=[1]
     for b in range (i):
